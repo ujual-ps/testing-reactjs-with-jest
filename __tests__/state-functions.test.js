@@ -5,7 +5,7 @@ test("tooggleDone completes an incomplete todo", () => {
 
   const finState = toggleDone(startState, 1);
 
-  expect(finState).toEqual([{ id: 2, done: true, text: "Buy Milk" }]);
+  expect(finState).toEqual([{ id: 1, done: true, text: "Buy Milk" }]);
 });
 
 test("deleteTodo deletes the todo it is given", () => {
@@ -13,5 +13,5 @@ test("deleteTodo deletes the todo it is given", () => {
 
   const finState = deleteTodo(startState, 1);
 
-  expect(finState).toEqual([{ id: 1, done: false, text: "Buy Milk" }]);
+  expect(finState).toEqual([]);
 });
