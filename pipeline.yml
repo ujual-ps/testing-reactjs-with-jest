@@ -4,7 +4,7 @@ resources:
   type: git
   icon: github
   source:
-    uri: https://github.com/nodejs/nodejs.org.git
+    uri: https://github.com/sitepoint-editors/testing-react-with-jest.git
 
 - name: node-image
   type: registry-image
